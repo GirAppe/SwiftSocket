@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'SwiftSocket'
-  s.version      = '2.0.2'
+  s.version      = '2.0.3'
   s.summary      = 'A cool framework to work with TCP and UDP sockets'
 
   s.description  = <<-DESC
@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/swiftsocket/SwiftSocket'
   
   s.license      = { :type => 'BSD' }
+  s.swift_version = "5.0"
 
   s.author             = { 'Dan Shevlyuk' => 'danshevlyuk@icloud.com' }
   s.social_media_url   = 'http://twitter.com/danshevluk'
